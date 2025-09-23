@@ -1,0 +1,54 @@
+body {
+    background-color: var(--color-white);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0px;
+    background-color: var(--color-white);
+}
+
+.logo-portifolio-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.logo-portifolio-header p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.logo-portifolio-header img {
+    height: 46px;
+}
+
+.nav-bar-header > nav {
+    display: flex;
+    gap: 100px;
+}
+
+.nav-bar-header > nav > a {
+    font-size: var(--font-body-size);
+    font-weight: var(--font-subtitle-weight);
+    color: var(--color-grey-black);
+}
+
+.btn-share-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 8px 24px;
+    border-radius: 8px;
+
+    background-color: var(--color-nice-black);
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
