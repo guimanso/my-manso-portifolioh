@@ -1,0 +1,39 @@
+body {
+    background-color: var(--color-white);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0px;
+    background-color: var(--color-white);
+}
+
+.logo-portifolio-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.logo-portifolio-header p {
+    font-size: 18px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.logo-portifolio-header img {
+    height: 46px;
+}
+
+.nav-bar-header > nav {
+    display: flex;
+    gap: 100px;
+}
+
+.nav-bar-header > nav > a {
+    font-size: var(--font-body-size);
+    font-weight: var(--font-subtitle-weight);
+    color: var(--color-grey-black);
+}
