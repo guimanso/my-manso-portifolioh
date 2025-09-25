@@ -20,6 +20,7 @@ header {
 .logo-portifolio-header p {
     font-size: 18px;
     font-weight: 700;
+    white-space: nowrap;
 }
 
 .logo-portifolio-header img {
@@ -35,20 +36,4 @@ header {
     font-size: var(--font-body-size);
     font-weight: var(--font-subtitle-weight);
     color: var(--color-grey-black);
-}
-
-.btn-share-header {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-    padding: 8px 24px;
-    border-radius: 8px;
-
-    background-color: var(--color-nice-black);
-    color: var(--color-white);
-    font-size: 16px;
-    font-weight: 600;
-
-    cursor: pointer;
 }
