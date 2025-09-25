@@ -7,29 +7,33 @@
     font-family: var(--font);
 }
 
+html {
+    font-size: 62.5%;
+}
+
 :root {
     /* Fonts */
     --font: "Poppins", sans-serif;
 
-    --font-headline-1-size: 3.75rem;
+    --font-headline-1-size: clamp(2.4rem, 2vw + 1rem, 3.2rem);
     --font-headline-1-weight: 700;
 
-    --font-headline-2-size: 2rem;
+    --font-headline-2-size: clamp(2rem, 1.5vw + 1rem, 2.4rem);
     --font-headline-2-weight: 700;
 
-    --font-headline-3-size: 1.5rem;
+    --font-headline-3-size: clamp(1.8rem, 1vw + 1rem, 2rem);
     --font-headline-3-weight: 700;
 
-    --font-subtitle-size: 1.125rem;
+    --font-subtitle-size: clamp(1.2rem, 0.7vw + 0.6rem, 1.4rem);
     --font-subtitle-weight: 500;
 
-    --font-body-size: 1rem;
+    --font-body-size: clamp(1.4rem, 0.8vw + 0.8rem, 1.6rem);
     --font-body-weight: 400;
 
-    --font-button-size: 1.25rem;
+    --font-button-size: clamp(1.4rem, 0.8vw + 0.8rem, 1.6rem);
     --font-button-weight: 600;
 
-    --font-caption-size: 0.75rem;
+    --font-caption-size: clamp(1rem, 0.5vw + 0.5rem, 1.2rem);
     --font-caption-weight: 400;
 
     /* Colors */
