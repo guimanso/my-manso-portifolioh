@@ -37,3 +37,56 @@ header {
     font-weight: var(--font-subtitle-weight);
     color: var(--color-grey-black);
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    margin: 50px 0px;
+
+    .content-main {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        width: 50%;
+        
+        .text-content-main {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+
+            h1 {
+                width: 100%;
+                
+                span {
+                    color: var(--color-brown);
+                }
+            }
+        }
+
+        .group-social-link-main {
+            display: flex;
+            gap: 40px;
+
+            a {
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+                border-radius: 8px;
+                width: 60px;
+                height: 60px;
+                background-color: var(--color-ultra-black);
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    img {
+        width: clamp(10%, 50vh, 30%);
+    }
+}
