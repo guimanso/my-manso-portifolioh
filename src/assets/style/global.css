@@ -15,7 +15,7 @@ html {
     /* Fonts */
     --font: "Poppins", sans-serif;
 
-    --font-headline-1-size: clamp(4.0rem, 2vw + 1rem, 3.2rem);
+    --font-headline-1-size: clamp(6.0rem, 2vw + 1rem, 3.2rem);
     --font-headline-1-weight: 700;
 
     --font-headline-2-size: clamp(2rem, 1.5vw + 1rem, 2.4rem);
