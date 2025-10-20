@@ -33,7 +33,7 @@ header {
 }
 
 .nav-bar-header > nav > a {
-    font-size: var(--font-body-size);
+    font-size: var(--font-subtitle-size);
     font-weight: var(--font-subtitle-weight);
     color: var(--color-grey-black);
 }
