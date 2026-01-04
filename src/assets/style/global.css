@@ -42,6 +42,7 @@ html {
     --color-grey: #8B8B8B;
     --color-grey-blue: #9198A1;
     --color-ultra-grey-blue: #3D444D;
+    --color-effect-box-shadow: rgba(174, 174, 174, 0.25);
 
     --color-ultra-black: #000000;
     --color-black-blue: #0D1117;
