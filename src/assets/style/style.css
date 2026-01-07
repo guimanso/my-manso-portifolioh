@@ -157,3 +157,78 @@ main {
         }
     }
 }
+
+
+.section-my-training {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+    padding: 40px 0px;
+    background-color: var(--color-nice-black);
+
+    h2 {
+        color: var(--color-white);
+    }
+
+    .group-courses{
+        max-width: 100%; 
+        display: flex;
+        overflow-x: scroll;
+        gap: 58px;
+    }
+
+    .group-courses::-webkit-scrollbar {
+        display: none;
+    }
+
+    .card-course {
+        background-color: var(--color-grey-black);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+        padding: 40px;
+        border-radius: 10px;   
+
+        flex: 0 0 900px;
+        
+        .header-card-course {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p {
+              color: var(--color-grey);
+              font-size: var(--font-subtitle-size);  
+              font-weight: var(--font-subtitle-weight);
+            }
+
+            .logo-header-card {
+                display: flex;
+                gap: 48px;
+                align-items: center;
+
+                .logo-title-card {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    
+                    p, h3 {
+                        color: var(--color-white);
+                    }
+                }
+            }
+
+        }
+
+        .content-card-course {
+            p {
+                color: var(--color-white);
+            }
+        }
+    }
+}
