@@ -158,30 +158,56 @@ main {
     }
 }
 
-
 .section-my-training {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 60px;
     padding: 40px 0px;
+    position: relative;
+    
+    max-width: 100%;
+    margin: 0 auto;
+
     background-color: var(--color-nice-black);
-
+    
     h2 {
+        text-align: center;
         color: var(--color-white);
+        padding-bottom: 30px;
     }
 
-    .group-courses{
-        max-width: 100%; 
-        display: flex;
-        overflow-x: scroll;
-        gap: 58px;
+    .arrow-left,
+    .arrow-right {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: auto;
+        bottom: 0;
+        font-size: 50px;
+        line-height: 250px;
+        text-align: center;
+        color: var(--color-white);
+        cursor: pointer;
+        border: none;
+        background: none;
+        opacity: 0;
     }
 
-    .group-courses::-webkit-scrollbar {
+     .arrow-right {
+        position: absolute;
+        left: auto;
+        right: 0;
+    }
+
+    .gallery-wrapper-training {
+        overflow-x: auto;
+    }
+
+    .gallery-wrapper-training::-webkit-scrollbar {
         display: none;
+    }
+
+    .gallery-training {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 48px;
     }
 
     .card-course {
